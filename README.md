@@ -2,9 +2,9 @@
 Contains the folders of code that I used to make my path finder on the UW campus
 
 # What is It?
-·	Implemented a visual shortest path finder for the UW campus.
-·	Used React.js, Java, and Spark Java framework while following model-view-controller design pattern.
-·	Built custom graph implementation and utilized Dijkstra’s algorithm to find the shortest path.
+- Implemented a visual shortest path finder for the UW campus.
+- Used React.js, Java, and Spark Java framework while following model-view-controller design pattern.
+- Built custom graph implementation and utilized Dijkstra’s algorithm to find the shortest path.
 
 My Java graph implementation will be loaded with a csv file full of coordinate points for building locations and sidewalk points from the UW map, and 
 using those points and paths loaded into a graph, Djikstra's algorithm will search for the best path from one building location to another location.
