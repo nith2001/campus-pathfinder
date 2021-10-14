@@ -1,0 +1,18 @@
+# Create a graph
+created graph graph1
+
+# Add 2 nodes
+added node n1 to graph1
+added node n2 to graph1
+
+# Print the nodes in the graph
+graph1 contains: n1 n2
+
+# Add 4 edges pointing from one node to the other
+added edge e1 from n1 to n2 in graph1
+added edge e2 from n1 to n2 in graph1
+added edge e3 from n1 to n2 in graph1
+added edge e4 from n1 to n2 in graph1
+
+# Print the children of the node in the graph
+the children of n1 in graph1 are: n2(e1) n2(e2) n2(e3) n2(e4)

@@ -1,0 +1,5 @@
+# Create a graph
+CreateGraph graph1
+
+# Print the nodes in the graph
+ListNodes graph1

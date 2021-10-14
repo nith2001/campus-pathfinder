@@ -1,0 +1,5 @@
+Briefly list any changes you made to your graph class during hw-pathfinder, and why you made those changes.
+
+I removed the Graph.Node class because it overcomplicated my implementation and ended up only being an unnecessary wrapper
+class. I applied generics to my Graph class and deleted some unnecessary methods like removeNode and removeEdge
+since they were not going to be used, which allowed me to reduce my test suite.

@@ -1,0 +1,28 @@
+# Find a path with Dijkstra's algorithm when
+# the path found by BFS is different.
+
+created graph simpleGraph
+
+added node A to simpleGraph
+added node B to simpleGraph
+added node C to simpleGraph
+added node D to simpleGraph
+
+added edge 1.000 from A to B in simpleGraph
+added edge 1.000 from C to D in simpleGraph
+
+simpleGraph contains: A B C D
+
+path from A to C:
+no path found
+
+path from B to D:
+no path found
+
+path from A to B:
+A to B with weight 1.000
+total cost: 1.000
+
+path from C to D:
+C to D with weight 1.000
+total cost: 1.000

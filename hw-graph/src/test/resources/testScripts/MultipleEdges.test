@@ -1,0 +1,18 @@
+# Create a graph
+CreateGraph graph1
+
+# Add 2 nodes
+AddNode graph1 n1
+AddNode graph1 n2
+
+# Print the nodes in the graph
+ListNodes graph1
+
+# Add 4 edges pointing from one node to the other
+AddEdge graph1 n1 n2 e1
+AddEdge graph1 n1 n2 e2
+AddEdge graph1 n1 n2 e3
+AddEdge graph1 n1 n2 e4
+
+# Print the children of the node in the graph
+ListChildren graph1 n1

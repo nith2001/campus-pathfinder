@@ -1,0 +1,63 @@
+## CSE 331 hw-graph Part 2 Questions
+
+NOTE: This file is used as part of hw-graph-part2, and is not due as part of the hw-graph-part1
+submission. You may leave it blank for hw-graph-part1.
+
+## Section 1
+###########################################################################
+
+A few examples of possible Graph representations:
+
+    A: A collection of nodes and a collection of edges.
+    B: An adjacency list, in which each node is associated with a list of its outgoing edges.
+    C: An adjacency matrix, which explicitly represents, for every pair ⟨A,B⟩ of edges, whether there is a link from A to B, and how many.
+
+1. In two or three sentences, explain an advantage and a disadvantage of each of the
+representations listed above (for example, in terms of runtime complexity, space
+complexity, or ease of implementation).
+
+For A.) When going through a collection of nodes and a collection of edges, if you're running 'contains', 'add' or
+'remove' for a single edge or node, then it runs on O(1). Has the simplest implementation for this.
+However, running BFS or DFS to find a collection of nodes/edges will have significantly worse since you'll
+have to run through the same collection over and over again.
+
+For B.) Running BFS or DFS search will have smoother runtime in terms of implementation, but adding, removing, and
+running contains methods for nodes or edges will take longer than constant time (like O(V), O(E), O(V+E) etc). When
+edges have been added, it's possible for the list to be resized, but the resize shouldn't take as long as Part C.
+
+For C.) Running BFS or DFS search and contains will be very fast, but it will have very high space complexity of
+O(V^2). Also, when new nodes get added, the 2d array will potentially need to be resized, which will take a O(V^2)
+time.
+
+
+2. In two to three sentences, describe the representation you chose and explain why you
+chose it. If you chose to use a different representation than one of the three we described
+above, be sure to list its advantages and disadvantages, too.
+
+I will choose the adjacency list representation because it allowed a decent balance of implementation difficulty
+across all the methods I've decided on.
+
+
+## Section 4
+###########################################################################
+
+    (Please keep your answers brief and to-the-point.)
+
+1. Describe any new tests you added and why you added them, or why you feel that your original
+tests alone are sufficient.
+
+I added more tests for the Edge class and Node class because I realized I did not create a test suite that is uniquely
+designed to test those classes and their functionalities, and it was only more graph focused. Along with that,
+I found some bugs in my original tests that I remedied immediately.
+
+
+2. Did you make any changes to your specifications as you were implementing your Graph? (yes/no)
+If yes, describe your changes and why you made them.
+
+The only big change I made was that I refactored the Edge and Node class by bringing it outside the Graph class.
+The reason for this was because it's possible for other types of graph classes to be made (undirected, directed,
+or other graph variations) and having the Node and Edge classes outside the graph allows it to be used for other
+implementations of the Graph concept, should that ever be a future issue.
+
+
+

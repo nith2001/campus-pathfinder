@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graph.scriptTestRunner.ScriptFileTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2021-08-14T23:26:36" hostname="macbook-pro.lan" time="0.561">
+  <properties/>
+  <testcase name="checkOutput[TwoNodes]" classname="graph.scriptTestRunner.ScriptFileTests" time="0.285"/>
+  <testcase name="checkOutput[TwoNodesDirectedBothWays]" classname="graph.scriptTestRunner.ScriptFileTests" time="0.185"/>
+  <testcase name="checkOutput[MultipleEdges]" classname="graph.scriptTestRunner.ScriptFileTests" time="0.008"/>
+  <testcase name="checkOutput[ThreeNodesBidirectionalLoop]" classname="graph.scriptTestRunner.ScriptFileTests" time="0.007"/>
+  <testcase name="checkOutput[exampleTest2]" classname="graph.scriptTestRunner.ScriptFileTests" time="0.01"/>
+  <testcase name="checkOutput[TwoNodesOneEdge]" classname="graph.scriptTestRunner.ScriptFileTests" time="0.007"/>
+  <testcase name="checkOutput[AddNode]" classname="graph.scriptTestRunner.ScriptFileTests" time="0.007"/>
+  <testcase name="checkOutput[CreateGraphCheck]" classname="graph.scriptTestRunner.ScriptFileTests" time="0.007"/>
+  <testcase name="checkOutput[ThreeNodesOneDirectionLoop]" classname="graph.scriptTestRunner.ScriptFileTests" time="0.009"/>
+  <testcase name="checkOutput[FiveNodesInLine]" classname="graph.scriptTestRunner.ScriptFileTests" time="0.003"/>
+  <testcase name="checkOutput[exampleTest1]" classname="graph.scriptTestRunner.ScriptFileTests" time="0.004"/>
+  <testcase name="checkOutput[MultipleGraphsBidirectional]" classname="graph.scriptTestRunner.ScriptFileTests" time="0.008"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

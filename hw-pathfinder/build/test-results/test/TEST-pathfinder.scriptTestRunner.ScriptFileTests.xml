@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="pathfinder.scriptTestRunner.ScriptFileTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2021-08-15T17:34:09" hostname="macbook-pro.lan" time="0.313">
+  <properties/>
+  <testcase name="checkOutput[exampleDijkstraTest]" classname="pathfinder.scriptTestRunner.ScriptFileTests" time="0.19"/>
+  <testcase name="checkOutput[EdgeToSelf]" classname="pathfinder.scriptTestRunner.ScriptFileTests" time="0.017"/>
+  <testcase name="checkOutput[DjikstraTest3]" classname="pathfinder.scriptTestRunner.ScriptFileTests" time="0.007"/>
+  <testcase name="checkOutput[ListChildrenTest]" classname="pathfinder.scriptTestRunner.ScriptFileTests" time="0.036"/>
+  <testcase name="checkOutput[MultipleEdgesDjikstraTest]" classname="pathfinder.scriptTestRunner.ScriptFileTests" time="0.004"/>
+  <testcase name="checkOutput[DjikstraTest2]" classname="pathfinder.scriptTestRunner.ScriptFileTests" time="0.04"/>
+  <testcase name="checkOutput[NoPath]" classname="pathfinder.scriptTestRunner.ScriptFileTests" time="0.005"/>
+  <testcase name="checkOutput[MultipleEdgesDjikstraTest2]" classname="pathfinder.scriptTestRunner.ScriptFileTests" time="0.009"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

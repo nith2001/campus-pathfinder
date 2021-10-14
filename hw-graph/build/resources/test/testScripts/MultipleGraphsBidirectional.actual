@@ -1,0 +1,24 @@
+# Create graphs
+created graph graph1
+created graph graph2
+
+# Add nodes
+added node n1 to graph1
+added node n2 to graph1
+added node m1 to graph2
+added node m2 to graph2
+
+# Add edges
+added edge e1 from n1 to n2 in graph1
+added edge e2 from n2 to n1 in graph1
+added edge f1 from m1 to m2 in graph2
+added edge f2 from m2 to m1 in graph2
+
+# Print the nodes in each graph and their children
+graph1 contains: n1 n2
+graph2 contains: m1 m2
+
+the children of n1 in graph1 are: n2(e1)
+the children of n2 in graph1 are: n1(e2)
+the children of m1 in graph2 are: m2(f1)
+the children of m2 in graph2 are: m1(f2)

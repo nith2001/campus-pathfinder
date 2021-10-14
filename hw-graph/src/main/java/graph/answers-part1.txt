@@ -1,0 +1,102 @@
+## CSE 331 hw-graph Part 1 Questions
+
+## Section 1
+###########################################################################
+
+1. Write an AF and RI for IntQueue1 and IntQueue2.
+
+    ### IntQueue1
+
+    Abstraction Function:
+    AF(this) = a queue of integers stored in this.entries, where the front is located at entries[0].
+
+
+    Representation Invariant:
+    this.entries != null
+    front_val = entries[0]
+
+
+    ### IntQueue2
+
+    Abstraction Function:
+    AF(this) = a queue of integers stored in array this.entries, and the index representing the front of the queue
+    is stored in this.front.
+    entries[start..start+size-1] 	                                               if start + size -1 < entries.length
+    entries[start...entries.length-1] + entries[0...size - (entries.length - start) - 1]     else
+
+    Representation Invariant:
+    entries != null
+    front_val = entries[front]
+
+
+
+2. Group the snapshots of IntQueue2's internal state into groups that have the same abstract state.
+
+a, d, g [1, 2]
+b, h    [2, 3, 4]
+c, f    [1, 2, 3]
+
+
+
+3. For each signature below, state and justify in 1-2 sentences (per part) whether the method or constructor
+could possibly expose the representation, given the information available. Explain any assumptions you made.
+
+    a. `public int solveEquations(int x, int y, int z)`
+        This method will not expose the representation, but only hint to the expected outcome of the method.
+        I just assumed that giving x, y, and z would represent coefficients in an equation and the
+        method would solve for some constant in the equation and return it.
+
+
+    #b. `public String[] decode(boolean slowly)`
+        This method does expose the representation because it says they're going to decode something
+        and it'll return an array of strings that represents the decoded product. This makes me assume that
+        the encrypted data could potentially be stored as some array as well. ###Unsure###
+
+
+   #c. `private Date myBirthday()`
+        This method will not expose the representation to the client because the method is private,
+        so it is not available for the client to use. ###Unsure###
+
+
+    d. `public String toString()`
+        This method does not expose the representation. I can only assume that whatever representation the class has,
+        the data it represents can be turned into strings, but that doesn't narrow it down, and could be anything.
+
+
+    #e. `public Iterator<Integer> elements()`
+        This method does expose the representation because it tells us that the elements in this class are stored in
+        some kind of data structure and that data structure can return an iterator. ###Unsure###
+
+
+    f. `public Deck(List<Card> cards)`
+        This method does expose the representation because it indicates that the Deck will simply store the
+        List<Card> cards as a private field in the object. I assumed that 'cards' would be reassigned to a private
+        field this.cards once it was passed to the constructor.
+
+
+
+## Section 2
+###########################################################################
+
+Briefly explain why you included the operations you did and why you feel they are a sufficient
+interface to a graph. If your design includes multiple classes or interfaces, explain why you
+included each one; if not, explain whether you considered additional classes and why you decided
+not to include them.
+
+I wanted to make a mutable graph tha client can modify and build up or break down if necessary, which is why I
+included the remove and add edge and node methods. Also, I wanted to give the ability for the user to examine
+the graph and the qualities that each node and edge has, which is why I made the listChildren/Parents and
+outgoing/incoming Edges methods.
+
+
+## Section 3
+###########################################################################
+
+What was your testing strategy for this assignment? How do your script tests and JUnit tests
+differ from each other (if they do), and why?
+
+I made about 50 JUnit tests that would test that capabilities of each of the methods I implemented that wasn't covered
+in the script tests. My testing strategy was to come up with about 5-6 graphs with different shapes and structures,
+and I would put each method through a test using each graph to confirm that it worked. I did a similar process
+for the script tests, where I just constructed different graphs and I did operations on them and confirmed that
+the operations did was they were supposed to do.

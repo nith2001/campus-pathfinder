@@ -1,0 +1,19 @@
+pathfinder/junitTests/textInterface/TestDirection.java
+ pathfinder.junitTests.textInterface.TestDirection
+pathfinder/testUtils/ExitHandler.java
+ pathfinder.testUtils.ExitHandler
+pathfinder/scriptTestRunner/ScriptFileTests.java
+ pathfinder.scriptTestRunner.ScriptFileTests
+pathfinder/junitTests/datastructures/TestPoint.java
+ pathfinder.junitTests.datastructures.TestPoint
+pathfinder/junitTests/textInterface/CampusMapTest.java
+ pathfinder.junitTests.textInterface.CampusMapTest
+pathfinder/scriptTestRunner/PathfinderTestDriver.java
+ pathfinder.scriptTestRunner.PathfinderTestDriver
+ pathfinder.scriptTestRunner.PathfinderTestDriver$CommandException
+pathfinder/junitTests/datastructures/TestSegment.java
+ pathfinder.junitTests.datastructures.TestSegment
+pathfinder/junitTests/datastructures/TestPath.java
+ pathfinder.junitTests.datastructures.TestPath
+pathfinder/junitTests/textInterface/TestTextInterfaceView.java
+ pathfinder.junitTests.textInterface.TestTextInterfaceView

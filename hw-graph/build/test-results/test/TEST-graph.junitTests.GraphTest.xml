@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graph.junitTests.GraphTest" tests="42" skipped="0" failures="0" errors="0" timestamp="2021-08-14T23:31:08" hostname="macbook-pro.lan" time="0.091">
+  <properties/>
+  <testcase name="outgoingEdgesNullCheck" classname="graph.junitTests.GraphTest" time="0.006"/>
+  <testcase name="incomingEdgesNullCheck" classname="graph.junitTests.GraphTest" time="0.001"/>
+  <testcase name="constructorsCheck" classname="graph.junitTests.GraphTest" time="0.001"/>
+  <testcase name="allEdgesCheck0N0E" classname="graph.junitTests.GraphTest" time="0.001"/>
+  <testcase name="allEdgesCheck2N0E" classname="graph.junitTests.GraphTest" time="0.001"/>
+  <testcase name="allEdgesCheck2N1E" classname="graph.junitTests.GraphTest" time="0.0"/>
+  <testcase name="allEdgesCheck2N2E" classname="graph.junitTests.GraphTest" time="0.001"/>
+  <testcase name="allEdgesCheck3N3E" classname="graph.junitTests.GraphTest" time="0.001"/>
+  <testcase name="allNodesCheck0N0E" classname="graph.junitTests.GraphTest" time="0.001"/>
+  <testcase name="allNodesCheck2N0E" classname="graph.junitTests.GraphTest" time="0.001"/>
+  <testcase name="allNodesCheck2N1E" classname="graph.junitTests.GraphTest" time="0.002"/>
+  <testcase name="allNodesCheck2N2E" classname="graph.junitTests.GraphTest" time="0.001"/>
+  <testcase name="allNodesCheck3N3E" classname="graph.junitTests.GraphTest" time="0.001"/>
+  <testcase name="addEdgesCheck2N0E" classname="graph.junitTests.GraphTest" time="0.001"/>
+  <testcase name="addEdgesCheck2N1E" classname="graph.junitTests.GraphTest" time="0.003"/>
+  <testcase name="addEdgesCheck3N3E" classname="graph.junitTests.GraphTest" time="0.002"/>
+  <testcase name="isEmptyCheck0N" classname="graph.junitTests.GraphTest" time="0.004"/>
+  <testcase name="containsNodeCheck2N0E" classname="graph.junitTests.GraphTest" time="0.001"/>
+  <testcase name="containsNodeCheck2N1E" classname="graph.junitTests.GraphTest" time="0.006"/>
+  <testcase name="containsNodeCheck2N2E" classname="graph.junitTests.GraphTest" time="0.005"/>
+  <testcase name="containsNodeCheck3N3E" classname="graph.junitTests.GraphTest" time="0.002"/>
+  <testcase name="containsEdgeCheck2N0E" classname="graph.junitTests.GraphTest" time="0.001"/>
+  <testcase name="containsEdgeCheck2N1E" classname="graph.junitTests.GraphTest" time="0.001"/>
+  <testcase name="containsEdgeCheck2N2E" classname="graph.junitTests.GraphTest" time="0.001"/>
+  <testcase name="getParents2N0E" classname="graph.junitTests.GraphTest" time="0.001"/>
+  <testcase name="getParents2N1E" classname="graph.junitTests.GraphTest" time="0.001"/>
+  <testcase name="getParents2N2E" classname="graph.junitTests.GraphTest" time="0.001"/>
+  <testcase name="getParents3N3E" classname="graph.junitTests.GraphTest" time="0.0"/>
+  <testcase name="getParents3N6E" classname="graph.junitTests.GraphTest" time="0.002"/>
+  <testcase name="containsNodeNullCheck" classname="graph.junitTests.GraphTest" time="0.001"/>
+  <testcase name="isEmptyCheck1N0E" classname="graph.junitTests.GraphTest" time="0.001"/>
+  <testcase name="isEmptyCheck2N1E" classname="graph.junitTests.GraphTest" time="0.0"/>
+  <testcase name="containsEdgeNullCheck" classname="graph.junitTests.GraphTest" time="0.001"/>
+  <testcase name="outgoingEdgesCheck2N1E" classname="graph.junitTests.GraphTest" time="0.001"/>
+  <testcase name="outgoingEdgesCheck2N2E" classname="graph.junitTests.GraphTest" time="0.001"/>
+  <testcase name="outgoingEdgesCheck2N5E" classname="graph.junitTests.GraphTest" time="0.001"/>
+  <testcase name="outgoingEdgesCheck3N3E" classname="graph.junitTests.GraphTest" time="0.001"/>
+  <testcase name="incomingEdgesCheck2N1E" classname="graph.junitTests.GraphTest" time="0.001"/>
+  <testcase name="incomingEdgesCheck2N2E" classname="graph.junitTests.GraphTest" time="0.001"/>
+  <testcase name="incomingEdgesCheck2N5E" classname="graph.junitTests.GraphTest" time="0.001"/>
+  <testcase name="incomingEdgesCheck3N3E" classname="graph.junitTests.GraphTest" time="0.002"/>
+  <testcase name="getParentNullCheck" classname="graph.junitTests.GraphTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
